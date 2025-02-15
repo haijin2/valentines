@@ -204,7 +204,7 @@ function gameLoop() {
     speedIncreaseTimer += 1 / 60; // Increment speed increase timer
 
     if (gameDuration >= bulletCreationInterval) {
-        createBullets(3); // Create 2 new bullets
+        createBullets(2); // Create 2 new bullets
         bulletSpeedMultiplier += 0.5; // Increase speed by 0.5
         gameDuration = 0; // Reset game duration after creating bullets
     }
